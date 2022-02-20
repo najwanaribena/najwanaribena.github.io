@@ -11,6 +11,11 @@ const projectBox = document.getElementsByClassName('project-box');
 const loading = document.getElementById('loading');
 const lordIcon = document.getElementsByTagName('lord-icon')[0];
 const loadingH3  = loading.getElementsByTagName('h3')[0];
+const content = document.getElementsByClassName('content')[0];
+
+window.onload = function() {
+    content.classList.remove('invisible');
+};
 
 const loadingAnimation = [
     'ippkhukl', // walking
